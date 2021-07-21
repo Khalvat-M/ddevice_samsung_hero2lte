@@ -25,10 +25,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbauthtzcommon_shim
 
-# Wi-Fi
-PRODUCT_PACKAGES += \
-    WifiOverlay
-
 # Inherit from common
 $(call inherit-product, device/samsung/universal8890-common/device-common.mk)
 
